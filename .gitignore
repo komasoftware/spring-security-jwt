@@ -13,3 +13,4 @@ out
 .project
 
 **/my.properties
+/gradle/

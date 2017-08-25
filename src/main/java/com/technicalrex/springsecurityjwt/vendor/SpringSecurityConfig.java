@@ -25,7 +25,7 @@ public class SpringSecurityConfig extends WebSecurityConfigurerAdapter {
     public SpringSecurityConfig() {
         super(true);
         this.userService = new UserService();
-        tokenAuthenticationService = new TokenAuthenticationService("tooManySecrets", userService);
+        tokenAuthenticationService = new TokenAuthenticationService("5SET*tz)Re72\"!{u", userService);
     }
 
     @Override
